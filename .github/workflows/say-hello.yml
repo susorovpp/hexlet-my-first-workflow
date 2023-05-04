@@ -6,3 +6,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: make say-hello
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      - name: Run setup-node for caching
+        uses: actions/setup-node@v3
+        with:
+          cache: npm
