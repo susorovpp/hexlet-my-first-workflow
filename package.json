@@ -1,0 +1,11 @@
+{
+  "name": "hexlet-my-first-workflow",
+  "version": "1.0.0",
+  "description": "[![say-hello](https://github.com/susorovpp/hexlet-my-first-workflow/actions/workflows/say-hello.yml/badge.svg)](https://github.com/susorovpp/hexlet-my-first-workflow/actions/workflows/say-hello.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
